@@ -9,7 +9,7 @@ Here is the strategy we consider to process larger data sets in AWS. A single DE
 
 Referrence:	Mehran Ghandehari, and Barbara P. Buttenfield (2018). 'Slope-Adjusted Surface Area Computations in Digital Terrain', Proceedings of Geomorphometry 2018 conference, the 5th International Conference of the ISG, Boulder, Colorado, August 13-17
 
-Mehran Ghandehari, Barbara P. Butteneld, Carson J. Q. Farmer (2018). Comparing the Accuracy of Interpolated Terrain
+Mehran Ghandehari, Barbara P. Buttenfield, Carson J. Q. Farmer (2018). Comparing the Accuracy of Interpolated Terrain
 Elevations Across Spatial Resolution, the International Journal of Remote Sensing, pp. 1-25.
 
 
