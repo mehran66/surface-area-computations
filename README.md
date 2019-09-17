@@ -8,3 +8,10 @@ Coding and statistical analysis are conducted in Python using open source module
 Here is the strategy we consider to process larger data sets in AWS. A single DEM at a single resolution is partitioned into strips covering 5 rows and all columns to create a task pool. The justification for 5 rows is that the interpolation methods using 3rd order polynomials require 5*5 neighborhoods. Once uploaded, each strip is processed by one CPU to estimate surface area by all interpolation methods, storing the results in a numpy array. Therefore, the strips can be executed concurrently to calculate the surface area for the entire DEM. The calculate surface area raster for all methods and DEM resolutions are saved into disk and are subsequently downloaded for validation against the surface area calculate from the LiDAR benchmark. <br>
 
 Referrence:	Mehran Ghandehari, and Barbara P. Buttenfield (2018). 'Slope-Adjusted Surface Area Computations in Digital Terrain', Proceedings of Geomorphometry 2018 conference, the 5th International Conference of the ISG, Boulder, Colorado, August 13-17
+
+Mehran Ghandehari, Barbara P. Butteneld, Carson J. Q. Farmer (2018). Comparing the Accuracy of Interpolated Terrain
+Elevations Across Spatial Resolution, the International Journal of Remote Sensing, pp. 1-25.
+
+
+![Capture](https://user-images.githubusercontent.com/10367311/65008395-76d05600-d8c6-11e9-8de3-3250bf2083fa.PNG)
+
